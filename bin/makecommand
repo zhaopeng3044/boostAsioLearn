@@ -1,0 +1,1 @@
+clang++ -o outputName sourceFile -I$BOOST_INCLUDE -L$BOOST_LIB
