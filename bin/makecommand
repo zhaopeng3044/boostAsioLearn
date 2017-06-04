@@ -1,1 +1,2 @@
 clang++ -o outputName sourceFile -I$BOOST_INCLUDE -L$BOOST_LIB
+ clang++ -o simpleServer simpleServer.cpp -I$BOOST_INCLUDE -L$BOOST_LIB -lboost_system  -std=c++11          
