@@ -1,2 +1,3 @@
 clang++ -o outputName sourceFile -I$BOOST_INCLUDE -L$BOOST_LIB
  clang++ -o simpleServer simpleServer.cpp -I$BOOST_INCLUDE -L$BOOST_LIB -lboost_system  -std=c++11          
+ clang++ -o tcp_async_echo_client tcp_async_echo_client.cpp -I$BOOST_INCLUDE -L$BOOST_LIB -lboost_system -lboost_thread -std=c++11 #使用thread编译方法
